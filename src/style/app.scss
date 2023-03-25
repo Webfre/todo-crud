@@ -1,0 +1,53 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #a7a1ae;
+  background-color: #1f2739;
+  padding: 0 15px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1em;
+  text-align: center;
+  color: #4dc3fa;
+}
+
+.blue {
+  color: #185875;
+}
+.yellow {
+  color: #fff842;
+}
+
+.app__title {
+  margin-bottom: 30px;
+}
+
+.icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 32px;
+  color: #4dc3fa;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+body::-webkit-scrollbar {
+  width: 10px; /* ширина scrollbar */
+  cursor: pointer;
+}
+body::-webkit-scrollbar-track {
+  background: rgba(70, 98, 123, 0.837); /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px; /* закругления плашки */
+  border: 5px solid rgb(120, 115, 186); /* padding вокруг плашки */
+}

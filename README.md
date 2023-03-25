@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Список задач v3.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+![Image alt](https://github.com/Webfre/todo-app/blob/main/src/Image/2023-03-17_11-07-56.png)
 
-## Available Scripts
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=webfre&label=Profile%20views&color=0e75b6&style=flat" alt="webfre" /> </p>
 
-In the project directory, you can run:
+Проект выполнен на React, TypeScript, Redux Toolkit, + Firebase 🔥
 
-### `npm start`
+## Предварительный просмотр
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a href="https://webfre.github.io/todo-crud/" target="_blank">Перейти 👁</a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Технологии
 
-### `npm test`
+Использовались библиотеки с открытым исходным кодом для правильной работы приложния:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [react](https://reactjs.org/) - это библиотека JavaScript с открытым исходным кодом для создания внешних пользовательских интерфейсов.
+- [typescript](https://create-react-app.dev/docs/adding-typescript/) - это расширенная версия языка JavaScript, изначально созданная в Microsoft для разработки крупных приложений. TypeScript помогает избавиться от типичных проблем JavaScript: ошибок типов в рантайме и неконтролируемо разрастающегося кода, сигнатуры функций которого находятся в лучшем случае в памяти разработчика, а в худшем и вовсе утрачены.
+- [redux](https://redux.js.org/introduction/getting-started) - это инструмент для управления состоянием данных и пользовательским интерфейсом в приложениях JavaScript с большим количеством сущностей. Представляет собой библиотеку JavaScript. Название читается как «Редакс» и составлено из двух слов: reduce и flux. Reduce — это функция, которая приводит большую структуру данных к одному значению. Flux — архитектура приложения, при которой данные передаются в одну сторону.
+- [@reduxjs/toolkit](https://redux.js.org/redux-toolkit/overview) - набор инструментов для эффективной разработки Redux. Предполагается, что это стандартный способ написания логики Redux, и мы настоятельно рекомендуем вам использовать его.
+- [react-icons](https://react-icons.github.io/react-icons/) - это небольшая библиотека, которая помогает добавлять иконки (из разных библиотек иконок) в ваши приложения React.
+- [sass](https://sass-lang.com/) - это скриптовый метаязык (т.е. язык, описывающий другой язык), разработанный для упрощения файлов CSS.
+- [axios](https://axios-http.com/docs/intro) - это широко известная JavaScript-библиотека. Она представляет собой HTTP-клиент, основанный на промисах и предназначенный для браузеров и для Node.js.
+- [react-toastify](https://github.com/fkhadra/react-toastify) - позволяет разработчику показывать всплывающие сообщения для отображения сообщения и информации для пользователя в течение определенного периода времени.
+- [firebase](https://firebase.google.com/) - это платформа для разработки мобильных и веб-приложений. Она предоставляет разработчикам множество инструментов и услуг, которые помогают им разрабатывать высококачественные приложения, расширять базу пользователей и получать больше прибыли.
+- [ESlint](https://github.com/eslint/eslint) - это инструмент, который помогает вам анализировать код JavaScript, находить синтаксические ошибки и автоматически исправлять их, писать аккуратный код в едином стиле в соответствии с определенными правилами.
+- [Prettier](https://prettier.io/) - это инструмент форматирования кода, предназначенный для использования жестко закодированных правил при разработке программ. Он автоматически форматирует код.
 
-### `npm run build`
+## Установка
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Приложение требует [Node.js](https://nodejs.org/) v16+ для запуска.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Если вы не знаете свою версию, вы можете проверить ее с помощью команды в терминале node -v.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Для того, чтобы установить проект локально, Вам потребуется:
 
-### `npm run eject`
+```sh
+git clone https://github.com/Webfre/todo-app.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Запуск проекта:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+cd todo-crud
+npm start
+```
