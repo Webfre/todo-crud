@@ -1,6 +1,6 @@
 # Список задач v3.0
 
-![Image alt](https://github.com/Webfre/todo-app/blob/main/src/Image/2023-03-17_11-07-56.png)
+![Image alt](https://github.com/Webfre/todo-crud/blob/main/src/img/2023-03-25_18-39-25.png)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=webfre&label=Profile%20views&color=0e75b6&style=flat" alt="webfre" /> </p>
 
@@ -35,7 +35,7 @@
 Для того, чтобы установить проект локально, Вам потребуется:
 
 ```sh
-git clone https://github.com/Webfre/todo-app.git
+git clone https://github.com/Webfre/todo-crud.git
 ```
 
 Запуск проекта:
