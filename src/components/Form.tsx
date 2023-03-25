@@ -16,12 +16,7 @@ const Form = () => {
   const dispatch = useAppDispatch();
 
   const onChangeValue = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setValue(() => {
-      return {
-        ...value,
-        [e.target.name]: e.target.value,
-      };
-    });
+    setValue({...value, [e.target.name]: e.target.value});
   };
 
   const handleStatus = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
