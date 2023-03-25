@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
-import Form from './Form';
-import '../style/modal.scss';
 import { useAppSelector, useAppDispatch } from '../hooks/useAppSelector';
 import { setOpenModal, taskId } from '../redux/slice';
+import Form from './Form';
+import '../style/modal.scss';
 
 function ModalWindow() {
   const { id, openModal } = useAppSelector(store => store.task);
