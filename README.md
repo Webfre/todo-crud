@@ -41,6 +41,7 @@ git clone https://github.com/Webfre/todo-crud.git
 Запуск проекта:
 
 ```sh
+npm install
 cd todo-crud
 npm start
 ```
